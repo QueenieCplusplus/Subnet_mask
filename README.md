@@ -12,10 +12,10 @@ IP uses an addr mask to show which bits in the addr are host and which are netwo
 
 # Natural Mask & Number of Addr
 
-|      mask     |       Addr     |     Usage  |     
-----------------|:--------------:|------------|
-| 255.255.255.0 |      2e8-2     |  too less  |
-| 255.255.0.0   |      2e16-2    | often used |
+|      mask     |           Addr     |    Usage   |     
+----------------|:------------------:|------------|
+| 255.255.255.0 |     2e8-2 = 254    |  too less  |
+| 255.255.0.0   |   2e16-2 = 65534   | often used |
 
 # Broadcast Addr
 
