@@ -24,6 +24,18 @@ IP uses an addr mask to show which bits in the addr are host and which are netwo
 | 255.255.255.0 | 255.255.255.1 |
 | 255.255.0.0   | 255.255.0.1   |
 
+# Advertising Block
+
+192.92.240.0 - 192.92.255.0
+
+192.92.240.0/20
+                                               
+                                                  /
+    External Network -----  192.92.240.0 -------- R --      240.0 ~ 255.0
+                           255.255.240.0          \
+
+
+
 # Varaible_Length Subnetting
 
                                                         host
