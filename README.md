@@ -13,5 +13,5 @@ IP uses an addr mask to show which bits in the addr are host and which are netwo
 # Natural Mask & Number of Addr
 
 |      mask     |       Addr     |
-----------------+----------------+
+----------------|:--------------:|
 | 255.255.255.0 |      2e8-2     |
