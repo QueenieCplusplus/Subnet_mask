@@ -1,3 +1,3 @@
 # Subnet_mask
 
-(to be continued...)
+Addressing and Routing are closely coupled. There are subnetting & supernetting need to be take in account. 
