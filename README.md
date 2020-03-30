@@ -10,6 +10,16 @@ It is like a trade-off within Addr Strategy in assigning addr space versus the c
 
 IP uses an addr mask to show which bits in the addr are host and which are network.
 
+The network prefix can be displayed in 3 formats:
+
+* bit-count, prefered use
+
+* decimal, old style
+
+* hexa, seems like 0x
+
+
+
 # Natural Mask & Number of Addr
 
 |      mask     |           Addr     |    Usage   |     
