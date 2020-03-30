@@ -28,7 +28,7 @@ $show ip route
 
 > C 192.168.2.0 255.255.255.0 is directly connected. E0
 
-$terminal ip netmask-format hexadecimal
+$ip netmask-format hexadecimal
 
 > out put is hexadecimal
 
