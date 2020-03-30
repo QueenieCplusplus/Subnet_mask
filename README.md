@@ -22,7 +22,7 @@ The network prefix can be displayed in 3 formats:
 
 $show ip route
 
-> out put is decimal
+> output is decimal
 
 > R 192.168.1.0 255.255.255.0 [120/2] 192.168.4.1 S1
 
@@ -30,7 +30,7 @@ $show ip route
 
 $ip netmask-format hexadecimal
 
-> out put is hexadecimal
+> output is hexadecimal
 
 > R 192.168.1.0 0xFFFFF00 [120/2] 192.168.4.1 S1
 
@@ -38,7 +38,7 @@ $ip netmask-format hexadecimal
 
 $ip netmask-format bit-count
 
-> out put is bit-format
+> output is bit-format
 
 # Natural Mask & Number of Addr
 
