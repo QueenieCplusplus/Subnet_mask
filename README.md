@@ -18,7 +18,23 @@ The network prefix can be displayed in 3 formats:
 
 * hexa, seems like 0x
 
+# cmd
 
+$show ip route
+
+> out put is decimal
+
+> R 192.168.1.0 255.255.255.0 [120/2] 192.168.4.1 S1
+
+> C 192.168.2.0 255.255.255.0 is directly connected. E0
+
+$terminal ip netmask-format hexadecimal
+
+> out put is hexadecimal
+
+> R 192.168.1.0 0xFFFFF00 [120/2] 192.168.4.1 S1
+
+> C 192.168.2.0 0xFFFFF00 is directly connected. E0
 
 # Natural Mask & Number of Addr
 
