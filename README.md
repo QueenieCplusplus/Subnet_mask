@@ -36,6 +36,10 @@ $ip netmask-format hexadecimal
 
 > C 192.168.2.0 0xFFFFF00 is directly connected. E0
 
+$ip netmask-format bit-count
+
+> out put is bit-format
+
 # Natural Mask & Number of Addr
 
 |      mask     |           Addr     |    Usage   |     
